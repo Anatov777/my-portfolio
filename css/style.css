@@ -47,7 +47,7 @@ main .projects .projects__item {
   background-color: #fff9ea;
   border-radius: 5px;
 }
-main .projects .projects__item a {
+main .projects .projects__item .show-btn {
   text-decoration: none;
   border: 1px solid #334858;
   border-radius: 10px;
@@ -55,7 +55,7 @@ main .projects .projects__item a {
   background-color: #00a1f1;
   color: #fefefe;
 }
-main .projects .projects__item a:hover {
+main .projects .projects__item .show-btn:hover {
   background-color: #1d92cc;
   transition-duration: 0.4s;
 }
