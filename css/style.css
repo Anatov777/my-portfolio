@@ -35,16 +35,15 @@ main {
 main .projects {
   width: 100%;
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 500px));
+  grid-gap: 20px;
+  justify-content: center;
 }
 main .projects .projects__item {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   padding: 10px;
-  width: 100%;
-  max-width: 500px;
-  background-color: #fff9ea;
+  background-color: #FFFBFB;
   border-radius: 5px;
 }
 main .projects .projects__item .show-btn {
@@ -58,9 +57,6 @@ main .projects .projects__item .show-btn {
 main .projects .projects__item .show-btn:hover {
   background-color: #1d92cc;
   transition-duration: 0.4s;
-}
-main .projects .projects__item + .projects__item {
-  margin-top: 20px;
 }
 
 footer {
